@@ -26,6 +26,7 @@ function StudentForm() {
         event.preventDefault();
         addStudent(student);
         clearStudentFields();
+        // !we need to reload the DOM
     }
 
     // Clear fields of the form by reseting the user
